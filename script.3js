@@ -1,0 +1,33 @@
+"use strict"
+  
+const header = d3.select("div.header");
+console.log("here we go");
+var circle = d3.selectAll("circle");
+
+console.log("here we go1");
+circle.style("fill", "steelblue");
+console.log("here we go2");
+
+//circle.attr("r", 30);
+//circle.attr("r", 10);
+//circle.attr("cx", 20);
+//circle.attr("cy", 23);
+
+// alternative syntax via chaining
+circle.attr("r", 10).attr("cx", 20).attr("cy", 23);
+console.log("here we go3");
+circle.data([32, 57, 112]);
+console.log("here we go3");
+circle.attr("r", function(d) { return Math.sqrt(d); });
+console.log("here we go4");
+/*circle.attr("cx", function() { 
+  for (var x = 0; x<5; x++){
+    console.log("here we go4");
+  return Math.random() * 720; 
+    }
+  });*/
+           // circle.attr("cx", function() { return Math.random() * 720; });
+
+  
+
+

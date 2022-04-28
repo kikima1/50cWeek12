@@ -1,0 +1,84 @@
+body {
+  width: 100vw;
+  margin: 25px auto;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  background-image: url("assets/IMG_1239.jpg");
+  background-size: 100%;
+}
+
+
+rect:hover {
+  fill-opacity: 1;
+}
+
+path {
+  fill-opacity: 0.8;
+}
+
+.selected,
+path:hover {
+  fill-opacity: 1;
+}
+
+ #msg {
+  height: 50px;
+  max-width: 400px;
+   text-align: center;
+  color: white;
+  background: #71bca3A6;
+   padding: 20px 80px 20px 80px;
+   margin: auto auto 40px auto;
+}
+ #msg2 {
+  height: 30px;
+  
+  max-width: 875px;
+   text-align: center;
+  color: white;
+  background: #71bca3A6;
+   padding: 20px 80px;
+   margin: auto auto 40px auto;
+}
+
+h3 {
+  text-align: center;
+}
+h1,h2, div {
+ 
+  text-align: center;
+  padding-bottom: 10px;
+  
+  
+}
+h1{
+ max-width: 800px;
+   text-align: center;
+  color: white;
+  background: #71bca3A6;
+   padding: 20px 80px;
+   margin: auto auto 40px auto;
+}
+.chart {
+  max-width: 420px;
+  text-align: center;
+   margin:  auto auto 10px auto;
+  padding-left: 15px;
+  
+  background: #f2f2f2A6
+}
+.blobs {
+  min-width: 950px;
+  max-width: 1000px;
+  text-align: center;
+     
+ //padding-left: 80px;
+  text-align: center;
+  margin:  auto auto 10px auto;
+ 
+  
+  background: #f2f2f2A6
+  
+}

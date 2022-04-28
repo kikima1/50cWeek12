@@ -1,0 +1,53 @@
+[
+    {
+        "val": 75,
+        "color": "#68012a",
+        "text":"wasps"
+    },
+  
+    {
+        "val": 68,
+        "color": "#68123b",
+        "text":"flies"
+    },
+    {
+        "val": 45,
+        "color": "#68234c",
+        "text":"ants"
+    },
+    {
+        "val": 95,
+        "color": "#68456d",
+        "text":"ticks"
+    },
+    {
+        "val": 52,
+        "color": "#68567e",
+        "text":"fleas"
+    },
+    {
+        "val": 25,
+        "color": "#68678f",
+        "text":"chickens"
+    },
+    {
+        "val": 121,
+        "color": "#68789a",
+        "text":"rabbits"
+    },
+    {
+        "val": 180,
+        "color": "#688912",
+        "text":"gophers"
+    },
+  {
+        "val": 15,
+        "color": "#68786b",
+        "text":"cats"
+    },
+  {
+        "val": 10,
+        "color": "#68345a",
+        "text":"dogs"
+    }
+]
